@@ -45,7 +45,6 @@ header ul li a
 }
 .toogle ul li a:hover{
     background-color: aqua;
-    transition: 0.6s;
 }
 
 .home{
