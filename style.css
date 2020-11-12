@@ -247,6 +247,9 @@ padding: 5px;
         text-decoration: none;
         border:2% #2196f2;  
 }
+. cnt:hover{
+    background-color: aqua;
+}
 #contact{
      width: 100%;
     text-align: center;
