@@ -48,7 +48,6 @@ header ul li a
 }
 
 .home{
-    position: relative;
     height: 600px;
     padding: 250px;
     background-color:offwhite;
@@ -72,7 +71,6 @@ header ul li a
     margin-bottom: 5%;
 }
 .btn{
-    position: relative;
     background-color:#2196f3;
     padding:10px;
     color:#fff;
@@ -117,7 +115,6 @@ header ul li a
     padding-bottom: 10px;
 }
 .edu {
-    position: relative;
     border: powderblue;
     background-color: #2196f3;
     padding:10px;
@@ -154,7 +151,7 @@ header ul li a
     font-size: 20px;
     color: slateblue;
 }
-.skl{position: relative;
+.skl{
     border: powderblue;
     background-color: #2196f3;
     padding:10px;
@@ -204,7 +201,7 @@ padding: 5px;
 }
 
 .int
-    {position: relative;
+    {
         border: powderblue;
         background-color: #2196f3;
         padding:10px;
@@ -239,7 +236,7 @@ padding: 5px;
     padding-bottom: 30px;
 }
 .cnt{
-    position: relative;
+    
         border: powderblue;
         background-color: #2196f3;
         padding:10px;
