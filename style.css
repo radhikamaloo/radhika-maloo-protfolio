@@ -33,19 +33,19 @@ header ul li{
     position: relative;
     list-style: none;
 }
-header ul li a 
-{
+header ul li a {
     position: relative;
-    display: inline;
-    margin:0 15px;
-    color:#fff;
-    text-decoration:none;
-    padding:10px 20px;
-    color:white;
+display: inline;
+margin:0 15px;
+color:#fff;
+text-decoration:none;
+padding:10px 20px;
+
+color:white;
 }
 .toogle ul li a:hover{
     background-color: aqua;
-
+    transition: none.6s;
 }
 
 .home{
@@ -53,20 +53,17 @@ header ul li a
     padding: 250px;
     background-color:offwhite;
     justify-content: space-between;
-    background-image: url(black.jpg);
 }
 .home div h2{
-    color:white ;
+    color:black ;
     font-size: 3em;
     font-weight: 500;
     line-height: 1.5em;
     align-items: center;
-    font-style: italic;
 }
 .home div h2 span{
     font-size: 50px;
     font-weight: 600;
-    color:#ff1744;
 }
 .home div h3{
     color: black;
@@ -74,33 +71,26 @@ header ul li a
     line-height: 1.5em;
     margin-bottom: 5%;
 }
-.btn,
-.edu,
-.skl,
-.int,
-.cnt
-{
-    background-color:#ff4546;
+.btn{
+    background-color:#2196f3;
     padding:10px;
-    color:rgb(0, 0, 0);
+    color:#fff;
     font-style: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
     text-decoration: none;
     border:5px aqua;
-    border-radius: 20px;
-    box-shadow: 2px 5px 4px #ff1744;
+
 }
-.btn:hover,
-.edu:hover{
-    background-color:pink;
+.btn:hover{
+    background-color: aqua;
 }
 #about{
     align-items: center;
 }
 .container{
     width: 100%;
-   
+    padding: 100px;
 }
 .container h2{
     width: 100%;
@@ -125,9 +115,9 @@ header ul li a
     padding-top: 100px;
     padding-bottom: 10px;
 }
-/*.edu {
+.edu {
     border: powderblue;
-    background-color: #ff1744;
+    background-color: #2196f3;
     padding:10px;
     color:#fff;
     font-style: uppercase;
@@ -136,11 +126,10 @@ header ul li a
     text-decoration: none;
     align-content: center;
     border:2% #2196f3;
-    border-radius: 20px;
 }
 .edu:hover{
     background-color: aquamarine;
-}*/
+}
 #education h2{
     padding:10px;
    font-size :50px;
@@ -163,7 +152,7 @@ header ul li a
     font-size: 20px;
     color: slateblue;
 }
-/*.skl{
+.skl{
     border: powderblue;
     background-color: #2196f3;
     padding:10px;
@@ -172,11 +161,10 @@ header ul li a
     font-size: 18px;
     letter-spacing: 2px;
     text-decoration: none;
-    border:2% #2196f2; 
-    border-radius: 20px; 
-}*/
+    border:2% #2196f2;  
+}
 .skl:hover{
-    background-color: pink;
+    background-color: aquamarine;
 }
 #skill{
     width: 100%;
@@ -213,7 +201,7 @@ font-weight: 800;
 padding: 5px;
 }
 
-/*.int
+.int
     {
         border: powderblue;
         background-color: #2196f3;
@@ -223,11 +211,10 @@ padding: 5px;
         font-size: 18px;
         letter-spacing: 2px;
         text-decoration: none;
-        border:2% #2196f2; 
-        border-radius: 20px; 
-}*/
+        border:2% #2196f2;  
+}
 .int:hover{
-    background-color: pink;
+    background-color: mediumaquamarine;
 }
 #interest{
     width: 100%;
@@ -249,7 +236,7 @@ padding: 5px;
     padding: 20px;
     padding-bottom: 30px;
 }
-/*.cnt{
+.cnt{
     
         border: powderblue;
         background-color: #2196f3;
@@ -259,11 +246,7 @@ padding: 5px;
         font-size: 18px;
         letter-spacing: 2px;
         text-decoration: none;
-        border:2% #2196f2; 
-        border-radius:20px ; 
-}*/
-.cnt:hover{
-    background-color:pink;
+        border:2% #2196f2;  
 }
 #contact{
      width: 100%;
