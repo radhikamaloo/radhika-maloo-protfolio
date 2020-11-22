@@ -45,6 +45,7 @@ header ul li a
 }
 .toogle ul li a:hover{
     background-color: aqua;
+
 }
 
 .home{
@@ -52,17 +53,20 @@ header ul li a
     padding: 250px;
     background-color:offwhite;
     justify-content: space-between;
+    background-image: url(black.jpg);
 }
 .home div h2{
-    color:black ;
+    color:white ;
     font-size: 3em;
     font-weight: 500;
     line-height: 1.5em;
     align-items: center;
+    font-style: italic;
 }
 .home div h2 span{
     font-size: 50px;
     font-weight: 600;
+    color:#ff1744;
 }
 .home div h3{
     color: black;
@@ -70,26 +74,33 @@ header ul li a
     line-height: 1.5em;
     margin-bottom: 5%;
 }
-.btn{
-    background-color:#2196f3;
+.btn,
+.edu,
+.skl,
+.int,
+.cnt
+{
+    background-color:#ff4546;
     padding:10px;
-    color:#fff;
+    color:rgb(0, 0, 0);
     font-style: uppercase;
     font-size: 18px;
     letter-spacing: 2px;
     text-decoration: none;
     border:5px aqua;
-
+    border-radius: 20px;
+    box-shadow: 2px 5px 4px #ff1744;
 }
-.btn:hover{
-    background-color: aqua;
+.btn:hover,
+.edu:hover{
+    background-color:pink;
 }
 #about{
     align-items: center;
 }
 .container{
     width: 100%;
-    padding: 100px;
+   
 }
 .container h2{
     width: 100%;
@@ -114,9 +125,9 @@ header ul li a
     padding-top: 100px;
     padding-bottom: 10px;
 }
-.edu {
+/*.edu {
     border: powderblue;
-    background-color: #2196f3;
+    background-color: #ff1744;
     padding:10px;
     color:#fff;
     font-style: uppercase;
@@ -125,10 +136,11 @@ header ul li a
     text-decoration: none;
     align-content: center;
     border:2% #2196f3;
+    border-radius: 20px;
 }
 .edu:hover{
     background-color: aquamarine;
-}
+}*/
 #education h2{
     padding:10px;
    font-size :50px;
@@ -151,7 +163,7 @@ header ul li a
     font-size: 20px;
     color: slateblue;
 }
-.skl{
+/*.skl{
     border: powderblue;
     background-color: #2196f3;
     padding:10px;
@@ -160,10 +172,11 @@ header ul li a
     font-size: 18px;
     letter-spacing: 2px;
     text-decoration: none;
-    border:2% #2196f2;  
-}
+    border:2% #2196f2; 
+    border-radius: 20px; 
+}*/
 .skl:hover{
-    background-color: aquamarine;
+    background-color: pink;
 }
 #skill{
     width: 100%;
@@ -200,7 +213,7 @@ font-weight: 800;
 padding: 5px;
 }
 
-.int
+/*.int
     {
         border: powderblue;
         background-color: #2196f3;
@@ -210,10 +223,11 @@ padding: 5px;
         font-size: 18px;
         letter-spacing: 2px;
         text-decoration: none;
-        border:2% #2196f2;  
-}
+        border:2% #2196f2; 
+        border-radius: 20px; 
+}*/
 .int:hover{
-    background-color: mediumaquamarine;
+    background-color: pink;
 }
 #interest{
     width: 100%;
@@ -235,7 +249,7 @@ padding: 5px;
     padding: 20px;
     padding-bottom: 30px;
 }
-.cnt{
+/*.cnt{
     
         border: powderblue;
         background-color: #2196f3;
@@ -245,10 +259,11 @@ padding: 5px;
         font-size: 18px;
         letter-spacing: 2px;
         text-decoration: none;
-        border:2% #2196f2;  
-}
+        border:2% #2196f2; 
+        border-radius:20px ; 
+}*/
 .cnt:hover{
-    background-color: aqua;
+    background-color:pink;
 }
 #contact{
      width: 100%;
